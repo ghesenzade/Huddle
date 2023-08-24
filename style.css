@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+body {
+    color: #fff;
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: 'Poppins', sans-serif;
+
+}
+.main {
+    margin-left: 100px;
+}
+.main-foto {
+    margin-top: 70px;
+}
+.texts {
+    margin-left: 750px;
+    margin-top: -450px;
+}
+
+
+.head-text {  
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.text {   
+    line-height: 1.2;
+    margin-top: -30px;
+    word-spacing: 2px;   
+}
+
+button {
+    color: blueviolet;
+    border-style: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;   
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 30px;
+    
+}
+button:hover {
+    box-shadow: 1px 1px 2px 1px black;
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%); 
+}
+
+
+.attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+.social {
+    margin-top: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-right: 100px;
+    letter-spacing: 15px;
+}
+
+.social a {
+    margin-left: 1.7rem;
+}
+.social a i {
+    color: #fff;
+    font-size: 18px;
+    position: relative; 
+   
+}
+.social a i::after {
+   content: '';
+   position: absolute;
+   height: 35px;
+   width: 35px;
+   border: 1px solid #fff;
+   border-radius: 50%;
+   left: -10px;
+   bottom: -9px; 
+   
+}
+.social a:hover i {
+    color: hsl(300, 69%, 71%) ;
+}
+.social a i:hover::after {
+    border-color: hsl(300, 69%, 71%) ;
+}
