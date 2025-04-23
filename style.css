@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
-
 body {
     color: #fff;
     background-image: url(images/bg-desktop.svg);
@@ -40,7 +39,6 @@ body {
 .head-text {  
     font-family: 'Poppins', sans-serif;
 }
-
 .text{
     line-height: 1.2;
     word-spacing: 2px;   
@@ -57,7 +55,6 @@ button:hover {
     cursor: pointer;
     background-color: hsl(300, 69%, 71%); 
 }
-
 .footer {
     letter-spacing: 15px;
 }
